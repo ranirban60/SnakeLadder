@@ -1,8 +1,8 @@
 package com.bridgelabz;
 
 public class SnakeLadder {
-      static int  start = 0;
-      static int end = 100;
+     static int  start = 0;
+     static int end = 100;
 
     public static void main(String[] args) {
         int position = 0;
@@ -40,5 +40,6 @@ public class SnakeLadder {
             }
         }
         System.out.println("You are Winner, Position is : " +position);
+        System.out.println("Number of times played the game :" +dieRole);
     }
 }
