@@ -29,9 +29,14 @@ public class SnakeLadder {
 
             if (position == 100) {
                 break;
-            } else if (position < 0) {
+            }else if(position>100){
+            position -= dieNumber;
+            System.out.println("Staying in same position");
+            }else if (position < 0) {
                 position = start;
                 System.out.println("Go to Start");
+            }else{
+                System.out.println("New Position : " +position);
             }
         }
         System.out.println("You are Winner, Position is : " +position);
