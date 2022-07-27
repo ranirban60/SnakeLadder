@@ -7,15 +7,15 @@ public class SnakeLadder {
         System.out.println("DieNumber:" +dieNumber);
         int option = (int)(Math.random()*10)%3;
         switch(option){
-            case 1:
+            case 0:
                 System.out.println("No Play");
                 position +=0;
                 break;
-            case 2:
+            case 1:
                 System.out.println("Ladder");
                 position += dieNumber;
                 break;
-            case 3:
+            case 2:
                 System.out.println("Snake");
                 position -= dieNumber;
                 break;
